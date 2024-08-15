@@ -1,0 +1,81 @@
+#myh1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+    margin-top: 0;
+    padding: 10px 10px;
+    background-color: rgb(74, 74, 83);
+    color: rgb(255, 255, 255);
+}
+
+#guessMessage
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+    margin-top: 1e;
+    margin-bottom: 0px;
+}
+
+#numberLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: monospace;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    font-family: monospace;
+    padding: 12px 20px;
+    font-size: 1.3em;
+    margin: 0 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+
+#lowerBtn{
+    background-color:rgb(200, 44, 44);
+    color: white;
+}
+
+#lowerBtn:hover {
+    background-color: rgba(200, 44, 44, 0.7);
+}
+
+
+
+#newGameBtn {
+    background-color:rgb(74, 74, 83);
+    color: white;
+}
+
+#newGameBtn:hover {
+    background-color: rgba(74, 74, 83, 0.7);
+}
+
+#higherBtn{
+    background-color:rgb(19, 157, 19);
+    color: white;   
+}
+
+#yesBtn {
+    background-color:rgb(16, 68, 190);
+    color: white;
+}
+
+#higherBtn:hover  {
+    background-color: rgba(19, 157, 19, 0.7);
+}
+#yesBtn:hover {
+    background-color: rgba(16, 68, 190, 0.7);
+}
+
+
+
+

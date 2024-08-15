@@ -98,10 +98,11 @@ console.log(`${year} is a leap year: ${is_leap_year}`);
 
 /*
 let adress = "https://www.google.com";
-adress = adress.replace("google", "youtube");
+let google_part = adress.slice(12, 18);
+adress = adress.replace(google_part, "youtube");
 console.log(adress);
-
 */
+
 
 
 
