@@ -1,5 +1,5 @@
 //console.log(`Hello from index.js`);
-//console.log(`I like pizzaa!`)
+//console.log(`console writing is fun!`);
 
 //window.alert(`I'm an alert!`);
 //window.alert(`This is another alert!`);
@@ -17,15 +17,6 @@ console.log(age);
 console.log(`Your name is ${f_name} and You are ${age} years old!`); // you cant use " in this case"
 console.log("type of age:", typeof age, "\ntype of price:", typeof price, "\ntype of name:", typeof f_name , "\ntype of var_bool:", typeof var_bool);
 */
-
-//How to accept user input
-//1. EASY WAY = window prompt
-//let user_question = window.prompt("Are you learning JS?");
-//console.log("user's answer is", user_question);
-//2. PROFESSIONAL WAY = HTML testbox
-//in the index.js
-
-
 
 document.getElementById("myH1").textContent = `Hello!`;
 document.getElementById("mylabel").textContent = `username:`;
@@ -85,7 +76,7 @@ console.log(`The circumference of the circle is ${circumference}`);
 
 */
 
-document.getElementById("calculate").onclick = function() {
+document.getElementById("calculateBtn").onclick = function() {
     radius = Number(document.getElementById("myinput2").value);
     circumference = 2 * PI * radius;
     document.getElementById("result").textContent = `The circumference of the circle is ${circumference}cm`;
