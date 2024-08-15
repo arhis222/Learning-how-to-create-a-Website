@@ -1,0 +1,19 @@
+body
+{
+    font-family: monospace;
+    font-size: 2em;
+}
+
+#submitBtn
+{
+    font-size: 1em;
+    font-family:monospace;
+
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+
