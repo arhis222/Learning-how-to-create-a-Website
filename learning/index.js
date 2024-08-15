@@ -93,6 +93,18 @@ document.getElementById("calculate").onclick = function() {
 }
 
 
+/*
+//ternary operator = condition ? true : false
+
+let year = 2021;
+let is_leap_year;
+
+is_leap_year = (year % 4 === 0) ? "Yes" : "No";
+
+console.log(`${year} is a leap year: ${is_leap_year}`);
+
+*/
+
 
 
 
