@@ -1,0 +1,33 @@
+body
+{
+    text-align: center;
+    font-family: monospace;
+}
+
+#myh1
+{
+    font-size: 3em;
+    margin-top: 0;
+    padding: 10px 10px;
+    background-color: rgb(74, 74, 83);
+    color: rgb(255, 255, 255);
+}
+
+#randomNumber
+{
+    text-align: center;
+    font-size: 13em;
+}
+#rollBtn
+{
+    font-family: monospace;
+    font-size: 2.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(17, 231, 28);
+    transition: background-color 0.25s;
+}
+#rollBtn:hover
+{
+    background-color: rgba(0, 0, 0, 0.473);
+}

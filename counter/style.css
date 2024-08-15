@@ -1,0 +1,63 @@
+#myh1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+    margin-top: 0;
+    padding: 10px 10px;
+    background-color: rgb(74, 74, 83);
+    color: rgb(255, 255, 255);
+}
+
+#counterLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: monospace;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    font-family: monospace;
+    padding: 12px 20px;
+    font-size: 1.3em;
+    margin: 0 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+
+#decreaseBtn {
+    background-color:rgb(200, 44, 44);
+    color: white;
+}
+
+#decreaseBtn:hover {
+    background-color: rgba(200, 44, 44, 0.7);
+}
+
+#resetBtn {
+    background-color:rgb(74, 74, 83);
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: rgba(74, 74, 83, 0.7);
+}
+
+#increaseBtn {
+    background-color:rgb(19, 157, 19);
+    color: white;
+    
+}
+
+#increaseBtn:hover  {
+    background-color: rgba(19, 157, 19, 0.7);
+}
+
+
+
+
