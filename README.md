@@ -19,24 +19,23 @@ To view and test these projects locally, follow these steps:
    git clone https://github.com/arhis222/Learning-how-to-create-a-Website.git
     ```
    
-2.**Navigate to the Project Folder:**
+2. **Navigate to the Project Folder:**
    ```bash
    cd Learning-how-to-create-a-Website/folder_name
    ```
-Note: Replace folder_name with the specific folder name for the website example you wish to view. Each folder in this repository corresponds to a different project or website example. For instance, if you want to work on the "counter" example, navigate to the folder named counter.
+   Note: Replace folder_name with the specific folder name for the website example you wish to view. Each folder in this repository corresponds to a different project or website example. For instance, if you want to work on the "counter" example, navigate to the folder    named counter.
 
-Open the index.html File:
-
+3. **Open the index.html File:**
 Using VSCode: Install the "Live Server" extension. Right-click on the index.html file and select "Open with Live Server."
 Using Visual Studio: You can use the built-in server features to preview the index.html file.
 Using IntelliJ IDEA: Install the "LiveServer" plugin and use it to open the index.html file.
 View Your Website:
 Your default web browser should automatically open and display the website.
 
-Contribution
+## Contribution
 This repository is designed as a learning resource for beginners. If you have suggestions for improvement, additional features, or enhancements, feel free to contribute! You can submit issues or pull requests to help improve this project and make it even more valuable to others.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Thank you for checking out my projects! I hope you find them helpful as you embark on your journey to learn web development. If you have any questions or need further assistance, don't hesitate to reach out.
